@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to sit Sabir</title>
+    <style>
+        button {
+            background-color: rebeccapurple;
+            width: 200px;
+            height: 50px;
+            border-radius: 15px;
+            font-size: 20px;
+            border: none;
+            color: white;
+        }
+        .box {
+            background-color: #3498db;
+            width: 200px;
+            height: 50px;
+            border-radius: 15px;
+            text-align: center;
+            position: absolute;
+            top: 100px;
+            left: 395px;
+            color: white;
+        }
+        div {
+            position: absolute;
+            top: 7px;
+            left: 820px;
+        }
+        h1 {
+            background-color: red;
+            position: absolute;
+            top: -5px;
+            left: 370px;
+            width: 250px;
+            height: 50px;
+            border-radius: 12px;
+            text-align: center;
+            line-height: 50px;
+            color: white;
+        }
+
+        .img1, .img2, .img3 {
+            border-radius: 10px;
+        }
+        .img1 {
+            position: absolute;
+            width: 295px;
+            height: 200px;
+            top: 300px;
+            left: 1px;
+        }
+        .img2 {
+            position: absolute;
+            top: 300px;
+            left: 715px;
+            width: 295px;
+            height: 200px;
+        }
+        .img3 {
+            position: absolute;
+            top: 300px;
+            left: 350px;
+            width: 300px;
+            height: 200px;
+        }
+
+        body {
+            background: linear-gradient(to right, blue, black, red);
+        }
+
+        hr {
+            border: 20;
+            border-top: 30px black;
+            margin-top: 150px;
+            margin-bottom: 40px;
+            border-radius: 10px;
+        }
+
+        /* استعلام وسائط لجعل الصفحة تتكيف مع الشاشات الصغيرة */
+        @media (max-width: 768px) {
+            .box {
+                width: 150px;
+                top: 80px;
+                left: 50%;
+                transform: translateX(-50%);
+            }
+            h1 {
+                width: 200px;
+                left: 50%;
+                transform: translateX(-50%);
+            }
+            .img1, .img2, .img3 {
+                width: 100%;
+                height: auto;
+                top: 400px;
+                left: 0;
+            }
+            .img2 {
+                left: 0;
+            }
+            .img3 {
+                left: 0;
+                top: 600px;
+            }
+            button {
+                width: 150px;
+                height: 40px;
+                font-size: 16px;
+            }
+            div {
+                left: 50%;
+                transform: translateX(-50%);
+                top: 150px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .box {
+                width: 120px;
+                height: 40px;
+                top: 70px;
+            }
+            h1 {
+                width: 150px;
+                height: 40px;
+                font-size: 18px;
+                top: 30px;
+            }
+            button {
+                width: 120px;
+                height: 35px;
+                font-size: 14px;
+            }
+            .img1, .img2, .img3 {
+                width: 90%;
+                height: auto;
+                top: 450px;
+                left: 5%;
+            }
+        }
+        h2{
+            position: absolute;
+            top: 500px;
+            left: 30px;
+            width: 250px;
+            height: 60px;
+            font-size:40px ;
+            font-family:10px ;
+            color:whitesmoke;
+            text-align: center;
+        }
+        video{
+            position: absolute;
+            top: 350px;
+            left: 370px;
+            width: 550px;
+            height: 700px;
+            border-radius: 22px;
+        }
+    </style>
+</head>
+<body>
+    <button type="button">Continuing the path of success</button>
+    <button class="box">Welcome to Sabir Website</button>
+    <div><button>Trust in dream</button></div>
+    <h1>YOU CAN DO IT</h1>
+    <img src="img/img1.jpg" class="img1">
+    <img src="img/img2.jpg" class="img2">
+    <img src="img/img3.png" class="img3">
+    
+    <h2>
+        learning is a continuous struggle filled 
+        with mistakes, but giving up is never an option.
+    </h2>
+     <video src="video/video.mp4.mp4" controls></video></body>
+</body>
+</html>
